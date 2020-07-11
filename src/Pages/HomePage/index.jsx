@@ -6,6 +6,7 @@ import Section1 from './Section1';
 import HowItWorks from './HowItWorks';
 import Connect from './Connect';
 import Navigate from './Navigate';
+import TrackSection from './TrackSection';
 
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
       <HowItWorks />
       <Connect />
       <Navigate />
+      <TrackSection />
     </div>
   )
 }
