@@ -5,6 +5,7 @@ import DonationSection from './DonationSection';
 import Section1 from './Section1';
 import HowItWorks from './HowItWorks';
 import Connect from './Connect';
+import Navigate from './Navigate';
 
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Section1 />
       <HowItWorks />
       <Connect />
+      <Navigate />
     </div>
   )
 }
