@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactComponent as MainImage } from '../../../Assets/mainimage.svg'
 
 import './HowItWorks.scss';
 

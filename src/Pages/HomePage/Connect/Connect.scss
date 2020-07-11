@@ -1,0 +1,28 @@
+.Connect{
+  width: 100%;
+  height: 722px;
+  position: relative;
+  background-image: url('https://res.cloudinary.com/dx0nauane/image/upload/v1594423841/mDoc/mdoc_image/Mask_Group_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  .content-holder{
+    position: absolute;
+    top: 202px;
+    left: 700px;
+    h4{
+      width: 431px;
+      font-family: Proxima Nova Regular;
+      font-size: 33px;
+      color: #202020;
+      line-height: 40px;
+      margin-bottom: 36px;
+    }
+    p{
+      width: 501px;
+      font-family: Proxima Nova Regular;
+      font-size: 21px;
+      color: #424242;
+      line-height: 29px;
+    }
+  }
+}
