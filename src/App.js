@@ -1,12 +1,21 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom'
 import HomePage from './Pages/HomePage';
+import DonationPage from './Pages/DonationPage';
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer';
 
 import './reset.css';
 
 const App = () => {
   return (
     <div className="App">
-      <HomePage />
+      <Navbar />
+      <Switch>
+        <Route exact path="/"><HomePage /></Route>
+        <Route path="/donate"><DonationPage /></Route>
+      </Switch>
+      <Footer />
     </div>
   );
 }

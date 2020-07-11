@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Brand } from '../../../Assets/Group 8.svg';
+import { ReactComponent as Brand } from '../../Assets/Group 8.svg';
 
 import './Footer.scss';
 
