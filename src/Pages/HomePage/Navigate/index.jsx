@@ -8,8 +8,7 @@ const Navigate = () => {
     <div className="Navigate">
       <div className="container">
         <LocationIcon className="icon" />
-        <h2 className="title">Simplification. Information. Access. Quality.
-        We help you find quality healthcare services you need on our<span> NaviHealth</span> directory.</h2>
+        <h2 className="title">Simplification. Information. Access. Quality.<br />We help you find quality healthcare services you need on our<span> NaviHealth </span>directory.</h2>
         <div className="content">
           <div className="left-content">
             <h4>We democratize
