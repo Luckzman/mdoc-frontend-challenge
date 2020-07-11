@@ -1,0 +1,38 @@
+.Banner3{
+  width: 100%;
+  height: 623px;
+  position: relative;
+  background-image: url('https://res.cloudinary.com/dx0nauane/image/upload/v1594423845/mDoc/mdoc_image/Mask_Group_3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  .container{
+    margin: auto;
+    text-align: center;
+    .icon{
+      width: 122px;
+      height: 122px;
+      margin-top: 53px;
+      margin-bottom: 23px;
+    }
+    h3{
+      // width: 596px;
+      font-size: 41px;
+      font-family: Proxima Nova Regular;
+      line-height: 60px;
+      margin: auto;
+      margin-bottom: 37px;
+      color: #202020;
+      
+    }
+    p{
+      width: 683px;
+      font-family: Proxima Nova Regular;
+      font-size: 21px;
+      line-height: 29px;
+      margin: auto;
+      color: #424242;
+      margin-bottom: 226px;
+
+    }
+  }
+}

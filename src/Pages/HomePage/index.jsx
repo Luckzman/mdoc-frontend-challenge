@@ -7,6 +7,7 @@ import HowItWorks from './HowItWorks';
 import Connect from './Connect';
 import Navigate from './Navigate';
 import TrackSection from './TrackSection';
+import Banner3 from './Banner3';
 
 
 const HomePage = () => {
@@ -20,6 +21,7 @@ const HomePage = () => {
       <Connect />
       <Navigate />
       <TrackSection />
+      <Banner3 />
     </div>
   )
 }
