@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar';
-import Banner from '../../Components/Banner';
+import Navbar from './Navbar';
+import Banner from './Banner';
+import DonationSection from './DonationSection';
 
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
     <div className="HomePage">
       <Navbar />
       <Banner />
+      <DonationSection />
     </div>
   )
 }
