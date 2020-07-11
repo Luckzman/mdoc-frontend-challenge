@@ -1,0 +1,52 @@
+.Navigate{
+  width: 100%;
+  .container{
+    width: 1140px;
+    margin: 105px auto 0;
+    text-align: center;
+    .icon{
+      width: 122px;
+      height: 122px;
+      margin-bottom: 25px;
+    }
+    h2{
+      width: 1094px;
+      font-family: Proxima Nova Regular;
+      font-size: 41px;
+      color: #424242;
+      line-height: 60px;
+      margin: 0 auto 47px;
+      span{
+        color: #47B462;
+      }
+    }
+    .content{
+      width: 1094px;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      .left-content{
+        text-align: left;
+        h4{
+          width: 372px;
+          color: #202020;
+          font-family: Proxima Nova Regular;
+          font-size: 33px;
+          line-height: 39px;
+          margin-bottom: 34px;
+        }
+        p{
+          width: 362px;
+          color: #424242;
+          font-family: Proxima Nova Regular;
+          font-size: 21px;
+          line-height: 29px;
+          margin-bottom: 19px;
+          &:last-child{
+            margin-bottom: 22px;
+          }
+        }
+      }
+    }
+  }
+}
