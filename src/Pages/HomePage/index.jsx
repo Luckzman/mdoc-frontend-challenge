@@ -8,6 +8,8 @@ import Connect from './Connect';
 import Navigate from './Navigate';
 import TrackSection from './TrackSection';
 import Banner3 from './Banner3';
+import PartnerSection from './PartnerSection';
+import LearnMoreSection from './LearnMoreSection';
 
 
 const HomePage = () => {
@@ -22,6 +24,8 @@ const HomePage = () => {
       <Navigate />
       <TrackSection />
       <Banner3 />
+      <PartnerSection />
+      <LearnMoreSection />
     </div>
   )
 }
