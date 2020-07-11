@@ -6,7 +6,7 @@ const LearnMoreSection = () => {
   return (
     <div className="LearnMoreSection">
       <div className="container">
-        <h3>Partners and Recognition</h3>
+        <h3>Want to learn more?</h3>
         <p>Join our newsletter to stay up to date on healthy living.</p>
         <div className="form-section">
           <input type="email" name="" id="" placeholder="Email Address" />

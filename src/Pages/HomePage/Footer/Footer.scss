@@ -1,0 +1,46 @@
+.Footer{
+  width: 100%;
+  .container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    .upper-section{
+      display: flex;
+      .footer-brand{
+        .brand{
+          height: 65.99px;
+          width: 177.27px;
+          margin: 33px 153px 0 30px;
+        }
+      }
+      ul{
+        margin-top: 39px;
+        margin-right: 156px;
+        margin-bottom: 31px;
+        li{
+          font-family: Proxima Nova Regular;
+          font-size: 21px;
+          line-height: 29px;
+          color: #000;
+          margin-bottom: 8px;
+        }
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+      .middle{
+        margin-right: 210px;
+      }
+    }
+  }
+  .lower-footer{
+    background-color: #47B462;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Proxima Nova Regular;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}

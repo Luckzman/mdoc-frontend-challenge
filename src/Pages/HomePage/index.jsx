@@ -10,7 +10,7 @@ import TrackSection from './TrackSection';
 import Banner3 from './Banner3';
 import PartnerSection from './PartnerSection';
 import LearnMoreSection from './LearnMoreSection';
-
+import Footer from './Footer';
 
 const HomePage = () => {
   return (
@@ -26,6 +26,7 @@ const HomePage = () => {
       <Banner3 />
       <PartnerSection />
       <LearnMoreSection />
+      <Footer />
     </div>
   )
 }
