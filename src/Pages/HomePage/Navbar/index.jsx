@@ -1,6 +1,6 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../../Assets/logo.svg';
-import { ReactComponent as SearchIcon } from '../../Assets/Icon-map-search.svg';
+import { ReactComponent as Logo } from '../../../Assets/logo.svg';
+import { ReactComponent as SearchIcon } from '../../../Assets/Icon-map-search.svg';
 import './Navbar.scss';
 
 const Navbar = () => {

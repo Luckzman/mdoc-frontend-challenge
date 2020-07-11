@@ -1,0 +1,63 @@
+.DonationSection{
+  width: 100%;
+  .container{
+    width: 1140px;
+    margin: 70px auto;
+    .donation{
+      display: flex;
+      width: 100%;
+      .img-container{
+        height: 393px;
+        width: 392.99px;
+        padding-right: 75px;
+        .image1{
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .donation-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+          font-family: Proxima Nova Regular;
+          font-size: 41px;
+          color: #202020;
+          font-weight: bold;
+          margin-bottom: 22px;
+        }
+        p{
+          font-weight: normal;
+          font-family: Proxima Nova Regular;
+          width: 638px;
+          font-size: 18px;
+          color: #424A52;
+          line-height: 29px;
+          margin-bottom: 36px;
+        }
+        .donation-btn{
+          display: flex;
+          button{
+            background-color: #47B462;
+            color: #fff;
+            height: 44px;
+            width: 152px;
+            font-family: Proxima Nova Regular;
+            font-size: 15px;
+            border: none;
+            border-radius: 3px;
+            margin-right: 34px;
+            outline: none;
+            cursor: pointer;
+            &:last-child{
+              width: 178px;
+              background-color: #fff;
+              border: 1px solid #47B462;
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
