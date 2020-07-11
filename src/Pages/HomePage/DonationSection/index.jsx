@@ -16,9 +16,8 @@ const DonationSection = () => {
             <h2>Stating help people fighting Corona</h2>
             <p>The Coronavirus (COVID-19) was first reported in Wuhan, Hubei, China in December 2019, the outbreak was later recognized as a pandemic by the World Health Organization (WHO) on 11 March 2020.</p>
             <div className="donation-btn">
-              <Link to="/donate">Donate Now</Link>
-              <button>Donate Now</button>
-              <button>Learn About COVID-19</button>
+              <Link className="button" to="/donate">Donate Now</Link>
+              <Link className="button extra" to="/help-covid">Learn About COVID-19</Link>
             </div>
           </div>
         </div>
