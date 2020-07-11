@@ -37,7 +37,7 @@
         }
         .donation-btn{
           display: flex;
-          button{
+          .button{
             background-color: #47B462;
             color: #fff;
             height: 44px;
@@ -48,14 +48,18 @@
             border-radius: 3px;
             margin-right: 34px;
             outline: none;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             cursor: pointer;
-            &:last-child{
+            }
+            .extra{
               width: 178px;
               background-color: #fff;
               border: 1px solid #47B462;
               color: #000;
             }
-          }
         }
       }
     }

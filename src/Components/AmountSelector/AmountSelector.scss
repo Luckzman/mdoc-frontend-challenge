@@ -1,0 +1,18 @@
+.AmountSelector{
+  width: 99px;
+  height: 49.81px;
+  background-color: #EFEFEF;
+  color: #424242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Proxima Nova Regular;
+  font-size: 15px;
+  line-height: 18px;
+}
+.active-selector{
+  background-color: #47B462;
+  color: #fff;
+}
