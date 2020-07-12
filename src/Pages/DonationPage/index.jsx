@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ReactComponent as EmbraceIcon } from '../../Assets/Group 13057.svg'
 import AmountSelector from '../../Components/AmountSelector';
 import './DonationPage.scss';
+import Header from '../../Components/Header';
 
 const DonationPage = () => {
   const [index, setIndex] = useState(-1);
@@ -12,9 +13,10 @@ const DonationPage = () => {
   return (
     <div className="DonationPage">
       <div className="container">
-        <div className="donation">
+        {/* <div className="donation">
           Donation
-        </div>
+        </div> */}
+        <Header name="Donation" />
         <div className="content-container">
           <EmbraceIcon className="icon" />
           <div className="donation-content">

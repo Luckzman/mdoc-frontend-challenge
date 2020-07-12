@@ -5,6 +5,7 @@ import DonationPage from './Pages/DonationPage';
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer';
 import CovidHelpPage from './Pages/CovidHelpPage';
+import ResourcePage from './Pages/ResourcePage';
 
 import './reset.css';
 
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path="/"><HomePage /></Route>
         <Route path="/donate"><DonationPage /></Route>
         <Route path="/help-covid"><CovidHelpPage /></Route>
+        <Route path="/resource"><ResourcePage /></Route>
       </Switch>
       <Footer />
     </div>

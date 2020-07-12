@@ -28,12 +28,13 @@
         display: flex;
         list-style: none;
         padding: 0px;
-        li{
+        li, .link{
           margin-right: 18px;
           font-family: Proxima Nova Regular;
           font-size: 15px;
           color: #000;
           font-weight: bold;
+          text-decoration: none;
           cursor: pointer;
           &:last-child{
             margin-right: 0;
