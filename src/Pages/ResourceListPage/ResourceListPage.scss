@@ -1,0 +1,46 @@
+.ResourceListPage{
+  padding-top: 94px;
+  .container{
+    width: 1140px;
+    margin: auto;
+    .search-group{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 42px;
+      margin-bottom: 48px;
+      .radio-group{
+        width: 532px;
+        display: flex;
+        justify-content: space-evenly;
+        .selector{
+          margin: 0 15px;
+        }
+      }
+      input{
+        width: 404px;
+        height: 55px;
+        border-radius: 6px;
+        background-color: #F7F7F7;
+        color: #696666;
+        font-family: Proxima Nova Regular;
+        font-size: 15px;
+        line-height: 76px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+      }
+      select{
+        width: 193px;
+        border: none;
+        border-bottom: 1px solid #707070;
+        color: #2C2C2C;
+        font-family: Proxima Nova Regular;
+        font-size: 14px;
+        line-height: 26px;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+  }
+}

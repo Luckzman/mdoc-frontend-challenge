@@ -8,6 +8,7 @@ import CovidHelpPage from './Pages/CovidHelpPage';
 import ResourcePage from './Pages/ResourcePage';
 
 import './reset.css';
+import ResourceListPage from './Pages/ResourceListPage';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/donate"><DonationPage /></Route>
         <Route path="/help-covid"><CovidHelpPage /></Route>
         <Route path="/resource"><ResourcePage /></Route>
+        <Route path="/resource-list"><ResourceListPage /></Route>
       </Switch>
       <Footer />
     </div>

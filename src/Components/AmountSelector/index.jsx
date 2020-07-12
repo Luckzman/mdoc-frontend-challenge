@@ -2,18 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './AmountSelector.scss';
 
-const AmountSelector = ({ amount, handleAmount, isActive, index }) => {
+const AmountSelector = ({ amount, isFilter, handleAmount, isActive, index }) => {
   return (
-    <div className={`AmountSelector ${isActive ? 'active-selector' : ''}`} onClick={() => handleAmount(amount, index)}>
-      {`$${amount}.00`}
+    <div className={`AmountSelector ${!isFilter ? 'not-filter' : ''} ${isActive ? 'active-selector' : ''}`} onClick={() => handleAmount(amount, index)}>
+      {isFilter ? amount : `$${amount}.00`}
     </div>
   )
 }
 
 AmountSelector.propTypes = {
+  isFilter: PropTypes.bool,
   amount: PropTypes.number,
   handleAmount: PropTypes.func,
   isActive: PropTypes.bool,
+  index: PropTypes.number
 };
 
 export default AmountSelector;

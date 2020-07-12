@@ -1,6 +1,6 @@
 .AmountSelector{
-  width: 99px;
-  height: 49.81px;
+  height: 55px;
+  padding: 0 35px;
   background-color: #EFEFEF;
   color: #424242;
   display: flex;
@@ -11,8 +11,15 @@
   font-family: Proxima Nova Regular;
   font-size: 15px;
   line-height: 18px;
+  box-sizing: border-box;
+  
 }
 .active-selector{
   background-color: #47B462;
   color: #fff;
+}
+.not-filter{
+  width: 99px;
+  padding: 0 5px;
+  height: 49.81px;
 }
