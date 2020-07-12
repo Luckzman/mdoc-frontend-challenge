@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { ReactComponent as Logo } from '../../Assets/logo.svg';
 import { ReactComponent as SearchIcon } from '../../Assets/Icon-map-search.svg';
 import './Navbar.scss';
@@ -8,7 +9,9 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="brand">
-          <Logo className="logo" />
+          <Link to="/">
+            <Logo className="logo" />
+          </Link>
         </div>
         <div className="nav">
           <ul className="left-nav">
