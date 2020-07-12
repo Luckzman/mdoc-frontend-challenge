@@ -29,7 +29,7 @@ const Navbar = () => {
             <li>Login</li>
             <li>
               <input type="text" placeholder="Search" />
-              <SearchIcon className="search-icon" />
+              <Link to="/resource-list"><SearchIcon className="search-icon" /></Link>
             </li>
           </ul>
         </div>

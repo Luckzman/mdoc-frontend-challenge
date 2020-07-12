@@ -1,0 +1,63 @@
+.ListItem{
+  background-color: #F7F7F7;
+  // box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  margin-bottom: 40px;
+  img{
+    width: 354px;
+    height: 249px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-right: 35px;
+  }
+  .text-content{
+    margin-right: 103px;
+    h3{
+      font-family: Proxima Nova Regular;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 27px;
+      color: #000;
+      margin-top: 42px;
+      margin-bottom: 15px;
+    }
+    p{
+      width: 459px;
+      font-family: Proxima Nova Regular;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000;
+    }
+  }
+  .right-items{
+    &__top{
+      margin-top: 42px;
+      h6{
+        font-family: Proxima Nova Regular;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000;
+        margin-bottom: 8px;
+      }
+      p{
+        font-family: Proxima Nova Regular;
+        font-size: 16px;
+        line-height: 22px;
+        color: #47B462;
+        margin-bottom: 89px;
+      }
+    }
+    .social-icons-group{
+      display: flex;
+      img{
+        height: 42px;
+        width: 42px;
+        margin-right: 10px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
