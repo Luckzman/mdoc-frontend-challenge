@@ -1,0 +1,140 @@
+.ResourcePage{
+  padding-top: 94px;
+  .container{
+    width: 1140px;
+    margin: auto;
+    .search-group{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 42px;
+      margin-bottom: 48px;
+      input{
+        width: 472px;
+        height: 55px;
+        border-radius: 6px;
+        background-color: #F7F7F7;
+        color: #696666;
+        font-family: Proxima Nova Regular;
+        font-size: 15px;
+        line-height: 76px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+      }
+      select{
+        width: 193px;
+        border: none;
+        border-bottom: 1px solid #707070;
+        color: #2C2C2C;
+        font-family: Proxima Nova Regular;
+        font-size: 14px;
+        line-height: 26px;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+    .content{
+      display: flex;
+      justify-content: space-between;
+      .filter-section{
+        width: 290px;
+        height: 400px;
+        overflow-y: scroll;
+        background-color: #F7F7F7;
+        padding-top: 20px;
+        padding-left: 28px;
+        &::-webkit-scrollbar{
+          width: 10px;
+        }
+        &::-webkit-scrollbar-track{
+          // box-shadow: inset 0 0 2px rgb(70, 170, 120); 
+          border-radius: 10px;
+        }
+        &::-webkit-scrollbar-thumb{
+          background-color: #47b462; 
+          border-radius: 10px;
+          &:hover{
+            background-color: #67b47a;
+          }
+        }
+        .checkbox-group{
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 33px;
+          h4{
+            font-family: Proxima Nova Regular;
+            font-size: 21px;
+            line-height: 29px;
+            color: #000;
+            margin-bottom: 20px;
+          }
+          .container{
+            display: block;
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+            width: 255px;
+            font-family: Proxima Nova Regular;
+            font-size: 15px;
+            line-height: 19px;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
+          .container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+          }
+          /* Create a custom checkbox */
+          .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 14px;
+            width: 14px;
+            background-color: #eee;
+            border: 1.5px solid #000;
+            border-radius: 5px;
+          }
+          /* When the checkbox is checked, add a blue background */
+          .container input:checked ~ .checkmark {
+            background-color: #47b462;
+            border: 1.5px solid #47b462;
+          }
+
+          /* Create the checkmark/indicator (hidden when not checked) */
+          .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+
+          /* Show the checkmark when checked */
+          .container input:checked ~ .checkmark:after {
+            display: block;
+          }
+          /* Style the checkmark/indicator */
+          .container .checkmark:after {
+            left: 9px;
+            top: px;
+            width: 5px;
+            height: 10px;
+          }
+        }
+      }
+      .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        // grid-template-rows: repeat(3, auto);
+        grid-gap: 50px;
+        margin-bottom: 69px;
+      }
+    }
+  }
+}

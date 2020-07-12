@@ -22,7 +22,7 @@ const Navbar = () => {
             <li>Contact</li>
             <li>Blog</li>
             <li>Careers</li>
-            <li>Resource</li>
+            <Link className="link" to="resource">Resource</Link>
           </ul>
           <ul className="right-nav">
             <li>Register</li>
