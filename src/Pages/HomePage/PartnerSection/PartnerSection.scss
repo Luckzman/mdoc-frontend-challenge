@@ -2,7 +2,7 @@
   width: 100%;
   .container{
     width: 1140px;
-    margin: 70px auto;
+    margin: 70px auto 63px;
     h3{
       width: 431px;
       font-family: Proxima Nova Regular;
@@ -11,6 +11,26 @@
       line-height: 40px;
       margin: auto;
       margin-bottom: 36px;
+    }
+    .rec.rec-dot {
+      background: #C0C0C0;
+      border: none;
+      box-shadow: none;
+    }
+    .rec.rec-dot_active {
+      background: #404040;
+      border: none;
+      box-shadow: none;
+    }
+    .rec .rec-arrow-left, .rec.rec-arrow-right{
+      min-width: 24.22px;
+      width: 24.22px;
+      height: 24.22px;
+      background-color: #A5A5A5;
+      color: #fff;
+      font-size: 1em;
+      line-height: 1em;
+      box-shadow: none;
     }
   }
 }

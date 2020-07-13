@@ -129,11 +129,18 @@
         }
       }
       .card-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        // grid-template-rows: repeat(3, auto);
-        grid-gap: 50px;
-        margin-bottom: 69px;
+        .card-grid{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 50px;
+          margin-bottom: 69px;
+        }
+        .pagination-container{
+          width: 525px;
+          margin: auto;
+          margin-top: 69px;
+          margin-bottom: 181px;
+        }
       }
     }
   }

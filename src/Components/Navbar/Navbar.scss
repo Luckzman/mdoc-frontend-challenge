@@ -28,6 +28,7 @@
         display: flex;
         list-style: none;
         padding: 0px;
+        align-items: center;
         li, .link{
           margin-right: 18px;
           font-family: Proxima Nova Regular;
@@ -39,6 +40,27 @@
           &:last-child{
             margin-right: 0;
           }
+          &:hover{
+            // background-color:#85a78e;
+            // width: 84px;
+            // color: #fff;
+            height: 41px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: none;
+            border-bottom: 2px solid #47B462;
+          }
+        }
+        .active{
+          width: 84px;
+          height: 41px;
+          background-color: #47B462;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 3px;
         }
       }
       .right-nav{
