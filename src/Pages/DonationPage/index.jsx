@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ReactComponent as EmbraceIcon } from '../../Assets/Group 13057.svg'
-import AmountSelector from '../../Components/AmountSelector';
+import AmountSelector from '../../Components/Selector';
 import './DonationPage.scss';
 import Header from '../../Components/Header';
 
@@ -31,7 +31,7 @@ Suffering from COVID19</p>
             </div>
             <h3>Donation Amount</h3>
             <div className="radio-group">
-              {amountArr.map((amt, i) => <AmountSelector key={`a${i}`} amount={amt} index={i} isActive={index === i} handleAmount={handleAmount} />)}
+              {amountArr.map((amt, i) => <AmountSelector key={`a${i}`} item={amt} index={i} isActive={index === i} handleItem={handleAmount} />)}
             </div>
             <h3>Card Detail</h3>
             <input type="text" placeholder="Card Holder Name" />
