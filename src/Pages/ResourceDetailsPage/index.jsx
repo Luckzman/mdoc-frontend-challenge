@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../../Components/Card';
+import data from './fixtures';
 
 import './ResourceDetailsPage.scss';
 
@@ -61,9 +62,13 @@ const ResourceDetailsPage = () => {
             <p>See All</p>
           </div>
           <div className="card-container">
-            <Card />
-            <Card />
-            <Card />
+            {data.map((item, i) => <Card
+              key={`item${i}`}
+              url={item.url}
+              type={item.type}
+              topic={item.topic}
+              content={item.content}
+            />)}
           </div>
         </div>
       </div>
