@@ -1,0 +1,148 @@
+.ResourceDetailsPage{
+  padding-top: 94px;
+  .container{
+    width: 1140px;
+    margin: auto;
+    .resource-details-header{
+      font-family: Proxima Nova Regular;
+      font-size: 33px;
+      font-weight: bold;
+      line-height: 46px;
+      color: #202020;
+      margin-bottom: 55px;
+    }
+
+    .img-section{
+      display: flex;
+      box-sizing: border-box;
+      justify-content: space-between;
+      margin-bottom: 75px;
+      img{
+        width: 750px;
+        height: 561px;
+        object-fit: fill;
+      }
+      .img-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 38px;
+        box-sizing: border-box;
+        img{
+          width: 344px;
+          height: 259px;
+          margin-bottom: 38px;
+          &:last-child{
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+
+    .about-section{
+      h2{
+        font-family: Gilroy-Bold, Proxima Nova Regular;
+        font-size: 35px;
+        line-height: 40px;
+        color: #000;
+        margin-bottom: 25px;
+      }
+      .about-group{
+        display: flex;
+        justify-content: space-between;
+        &_left{
+          p{
+            font-family: Proxima Nova Regular;
+            font-size: 22px;
+            line-height: 30px;
+            color: #12772B;
+            margin-bottom: 30px;
+            &:last-child{
+              width: 654px;
+              font-family: Aileron, Proxima Nova Regular;
+              font-size: 16px;
+              line-height: 30px;
+              color: #000;
+              margin-bottom: 55px;
+            }
+          }
+        }
+        &__right{
+          width: 194px;
+          height: 179px;
+          padding-left: 17px;
+          padding-top: 27px;
+          padding-right: 31px;
+          background-color: rgba(66, 66, 66, 0.05);
+          box-sizing: border-box;
+          h6{
+            font-family: Proxima Nova Regular;
+            font-size: 20px;
+            line-height: 26px;
+            color: #000;
+            margin-bottom: 8px;
+          }
+          p{
+            font-family: Proxima Nova Regular;
+            font-size: 16px;
+            line-height: 26px;
+            color: #47B462;
+            margin-bottom: 22px;
+          }
+          .social-links{
+            display: flex;
+            img{
+              height: 42px;
+              width: 42px;
+              margin-right: 10px;
+              &:last-child{
+                margin-right: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .details-section{
+      margin-bottom: 121px;
+      h2{
+        font-family: Gilroy-Bold, Proxima Nova Regular;
+        font-size: 35px;
+        line-height: 40px;
+        color: #000;
+        margin-bottom: 25px;
+      }
+      p{
+        font-family: Proxima Nova Regular;
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+
+    .other-resource-section{
+      .other-resource-heading{
+        display: flex;
+        justify-content: space-between;
+        h5{
+          font-family: Proxima Nova Regular;
+          font-size: 41px;
+          line-height: 60px;
+          color: #202020;
+          margin-bottom: 48px;
+        }
+        p{
+          font-family: Proxima Nova Regular;
+          font-size: 21px;
+          line-height: 29px;
+          color: #47B462;
+        }
+      }
+      .card-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 168px;
+      }
+    }
+  }
+}

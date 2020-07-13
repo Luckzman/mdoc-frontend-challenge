@@ -1,6 +1,6 @@
 .ListItem{
   background-color: #F7F7F7;
-  // box-sizing: border-box;
+  box-sizing: border-box;
   padding: 15px;
   display: flex;
   margin-bottom: 40px;
@@ -10,6 +10,7 @@
     border-radius: 12px;
     object-fit: cover;
     margin-right: 35px;
+    cursor: pointer;
   }
   .text-content{
     margin-right: 103px;

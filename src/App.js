@@ -6,9 +6,10 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer';
 import CovidHelpPage from './Pages/CovidHelpPage';
 import ResourcePage from './Pages/ResourcePage';
+import ResourceListPage from './Pages/ResourceListPage';
+import ResourceDetailsPage from './Pages/ResourceDetailsPage';
 
 import './reset.css';
-import ResourceListPage from './Pages/ResourceListPage';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/help-covid"><CovidHelpPage /></Route>
         <Route path="/resource"><ResourcePage /></Route>
         <Route path="/resource-list"><ResourceListPage /></Route>
+        <Route path="/resource-details"><ResourceDetailsPage /></Route>
       </Switch>
       <Footer />
     </div>
