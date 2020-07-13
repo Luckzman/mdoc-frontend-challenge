@@ -1,10 +1,25 @@
-import React from 'react';
-
-import './ResourcePage.scss';
+import React, { useState } from 'react';
+import Pagination from '../../Components/Pagination';
 import Header from '../../Components/Header';
 import Card from '../../Components/Card';
+import data from './fixtures';
+
+import './ResourcePage.scss';
+
+
 
 const ResourcePage = () => {
+  const [pageOfItems, setPageOfItems] = useState([]);
+
+  const onChangePage = (pageOfItems) => {
+    console.log(pageOfItems)
+    setPageOfItems(pageOfItems);
+  }
+  const Label = ({ name }) => <label className="container">{name}
+    <input type="checkbox" name="" id="" />
+    <span className="checkmark"></span>
+  </label>;
+
   return (
     <div className="ResourcePage">
       <div className="container">
@@ -20,81 +35,48 @@ const ResourcePage = () => {
           <div className="filter-section">
             <div className="checkbox-group">
               <h4>Market Verticals</h4>
-              <label className="container">Health Systems
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Health Plans
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Employers
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Government
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Pharma
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
+              <Label name='Health Systems' />
+              <Label name='Health Plans' />
+              <Label name='Employers' />
+              <Label name='Government' />
+              <Label name='Pharma' />
             </div>
 
             <div className="checkbox-group">
               <h4>Resource Types</h4>
-              <label className="container">Webinar
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">eBook
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Case Study
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Brochure
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Video
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
+              <Label name='Webinar' />
+              <Label name='eBook' />
+              <Label name='Case Study' />
+              <Label name='Brochure' />
+              <Label name='Video' />
             </div>
 
             <div className="checkbox-group">
               <h4>Topics</h4>
-              <label className="container">Best Practices
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Getting Started
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Patient Experience
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">Population Health
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
-              <label className="container">ROI
-                <input type="checkbox" name="" id="" />
-                <span className="checkmark"></span>
-              </label>
+              <Label name='Best Practices' />
+              <Label name='Getting Started' />
+              <Label name='Patient Experience' />
+              <Label name='Population Health' />
+              <Label name='ROI' />
             </div>
           </div>
           <div className="card-container">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <div className="card-grid">
+              {pageOfItems.map((item, i) => <Card
+                key={`item${i}`}
+                url={item.url}
+                type={item.type}
+                topic={item.topic}
+                content={item.content}
+              />)
+              }
+            </div>
+            <div className="pagination-container">
+              <Pagination
+                items={data}
+                onChangePage={onChangePage}
+              />
+            </div>
           </div>
         </div>
       </div>

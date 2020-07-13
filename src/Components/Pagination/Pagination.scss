@@ -1,0 +1,21 @@
+.pagination{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 69px;
+  margin-bottom: 181px;
+  font-family: Proxima Nova Regular;
+  font-size: 15px;
+  line-height: 20px;
+  cursor: pointer;
+  .active{
+    background-color: rgb(172, 172, 172);
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+}

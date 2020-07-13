@@ -13,7 +13,6 @@ import LearnMoreSection from './LearnMoreSection';
 const HomePage = () => {
   return (
     <div className="HomePage">
-      {/* <Navbar /> */}
       <Banner />
       <DonationSection />
       <Section1 />
@@ -24,7 +23,6 @@ const HomePage = () => {
       <Banner3 />
       <PartnerSection />
       <LearnMoreSection />
-      {/* <Footer /> */}
     </div>
   )
 }

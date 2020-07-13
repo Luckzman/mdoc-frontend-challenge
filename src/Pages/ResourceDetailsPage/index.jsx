@@ -1,7 +1,7 @@
 import React from 'react';
+import Card from '../../Components/Card';
 
 import './ResourceDetailsPage.scss';
-import Card from '../../Components/Card';
 
 const ResourceDetailsPage = () => {
   return (

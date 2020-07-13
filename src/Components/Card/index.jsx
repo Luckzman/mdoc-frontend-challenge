@@ -1,17 +1,25 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Card.scss';
 
-const Card = () => {
+const Card = ({ url, type, topic, content }) => {
   return (
     <div className="Card">
-      <img src="https://res.cloudinary.com/dx0nauane/image/upload/v1594579353/mDoc/mdoc_image/covid-response/covid%20response/Mask_Group_12.png" alt="" />
+      <img src={url} alt="" />
       <div className="content">
-        <p>Webinar</p>
-        <h5>Health System</h5>
-        <p>Intermountain Healthcare: Optimizing the Provider-Patient Digital Experience Through Telehealth Interoperability</p>
+        <p>{type}</p>
+        <h5>{topic}</h5>
+        <p>{content}</p>
       </div>
     </div>
   )
 }
+
+Card.propTypes = {
+  url: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  topic: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired
+};
 
 export default Card;
