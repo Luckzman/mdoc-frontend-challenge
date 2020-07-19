@@ -16,7 +16,6 @@ const items = [
 ];
 
 const NavItem = ({ item, path, isActive, handleClick, index }) => {
-  console.log(path, item)
   return (
     <Link className={`link ${isActive ? 'active' : ''}`} to={path} onClick={() => handleClick(item, index)} >{item}</Link>
   );
@@ -25,9 +24,9 @@ const NavItem = ({ item, path, isActive, handleClick, index }) => {
 const Navbar = () => {
   const [index, setIndex] = useState(-1);
   const handleClick = (item, index) => {
-    console.log(index, 'index')
     setIndex(index);
   }
+
   return (
     <div className="navbar">
       <div className="container">

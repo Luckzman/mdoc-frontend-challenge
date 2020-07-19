@@ -10,7 +10,7 @@ import Banner3 from './Banner3';
 import PartnerSection from './PartnerSection';
 import LearnMoreSection from './LearnMoreSection';
 
-const HomePage = () => {
+const HomePage = ({ navBackground }) => {
   return (
     <div className="HomePage">
       <Banner />
