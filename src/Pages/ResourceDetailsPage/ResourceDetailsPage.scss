@@ -4,7 +4,7 @@
     width: 1140px;
     margin: auto;
     .resource-details-header{
-      font-family: Proxima Nova;
+      font-family: "Proxima Nova";
       font-size: 33px;
       font-weight: bold;
       line-height: 46px;
@@ -41,7 +41,7 @@
 
     .about-section{
       h2{
-        font-family: Gilroy-Bold, Proxima Nova;
+        font-family: Gilroy-Bold, "Proxima Nova";
         font-size: 35px;
         line-height: 40px;
         color: #000;
@@ -52,14 +52,14 @@
         justify-content: space-between;
         &_left{
           p{
-            font-family: Proxima Nova;
+            font-family: "Proxima Nova";
             font-size: 22px;
             line-height: 30px;
             color: #12772B;
             margin-bottom: 30px;
             &:last-child{
               width: 654px;
-              font-family: Aileron, Proxima Nova;
+              font-family: Aileron, "Proxima Nova";
               font-size: 16px;
               line-height: 30px;
               color: #000;
@@ -76,14 +76,14 @@
           background-color: rgba(66, 66, 66, 0.05);
           box-sizing: border-box;
           h6{
-            font-family: Proxima Nova;
+            font-family: "Proxima Nova";
             font-size: 20px;
             line-height: 26px;
             color: #000;
             margin-bottom: 8px;
           }
           p{
-            font-family: Proxima Nova;
+            font-family: "Proxima Nova";
             font-size: 16px;
             line-height: 26px;
             color: #47B462;
@@ -107,14 +107,14 @@
     .details-section{
       margin-bottom: 121px;
       h2{
-        font-family: Gilroy-Bold, Proxima Nova;
+        font-family: Gilroy-Bold, "Proxima Nova";
         font-size: 35px;
         line-height: 40px;
         color: #000;
         margin-bottom: 25px;
       }
       p{
-        font-family: Proxima Nova;
+        font-family: "Proxima Nova";
         font-size: 16px;
         line-height: 30px;
       }
@@ -125,14 +125,14 @@
         display: flex;
         justify-content: space-between;
         h5{
-          font-family: Proxima Nova;
+          font-family: "Proxima Nova";
           font-size: 41px;
           line-height: 60px;
           color: #202020;
           margin-bottom: 48px;
         }
         p{
-          font-family: Proxima Nova;
+          font-family: "Proxima Nova";
           font-size: 21px;
           line-height: 29px;
           color: #47B462;

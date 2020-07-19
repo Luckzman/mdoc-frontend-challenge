@@ -1,4 +1,16 @@
-@font-face{
-  font-family: Proxima Nova;
-  src: url('./Assets/Proxima Nova.otf')
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('./Assets/proximanova-regular-webfont.eot');
+  src: url('./Assets/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('./Assets/proximanova-regular-webfont.woff2') format('woff2'),
+  url('./Assets/proximanova-regular-webfont.woff') format('woff'),
+  url('./Assets/proximanova-regular-webfont.ttf') format('truetype');
+  src: url('./Assets/Proxima Nova.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App{
+  font-family: "Proxima Nova";
+  font-weight: normal;
 }
