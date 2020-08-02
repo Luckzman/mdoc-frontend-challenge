@@ -1,10 +1,10 @@
 .Banner{
   position: relative;
-  // top: -94px;
+  top: -94px;
   // top: 0px;
   height: 535px;
-  width: 100%;
   background-image: url('https://res.cloudinary.com/dx0nauane/image/upload/v1594423845/mDoc/mdoc_image/Mask_Group_2.png');
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
@@ -13,7 +13,7 @@
     margin: 0 auto;
     padding-top: 192.5px;
     .highlight-text{
-      font-family: "Proxima Nova";
+      // font-family: "Proxima Nova";
       font-size: 48px;
       color: #fff;
       font-weight: bold;
