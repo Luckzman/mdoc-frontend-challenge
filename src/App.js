@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom'
 import HomePage from './Pages/HomePage';
 import DonationPage from './Pages/DonationPage';
@@ -10,6 +10,7 @@ import ResourceListPage from './Pages/ResourceListPage';
 import ResourceDetailsPage from './Pages/ResourceDetailsPage';
 
 import './reset.css';
+import './App.css';
 
 const App = () => {
 

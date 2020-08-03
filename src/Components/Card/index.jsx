@@ -6,7 +6,7 @@ const Card = ({ url, type, topic, content }) => {
   return (
     <div className="Card">
       <img src={url} alt="" />
-      <div className="content">
+      <div className="card-content">
         <p>{type}</p>
         <h5>{topic}</h5>
         <p>{content}</p>
